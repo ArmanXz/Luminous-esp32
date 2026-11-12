@@ -1,0 +1,17 @@
+# Arduino / PlatformIO build
+build/
+.pio/
+*.bin
+*.elf
+*.map
+
+# Kredensial pribadi (jika Anda memindahkan WiFi/MQTT ke file terpisah)
+secrets.h
+**/secrets.h
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+node_modules/
